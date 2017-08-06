@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="nol_dp">0dp</dimen>
+
+    <!--adapter_sources_news <adn>-->
+    <dimen name="adn_padding_continer">2dp</dimen>
+    <dimen name="adn_margin_card_top">9dp</dimen>
+    <dimen name="adn_margin_card_left">9dp</dimen>
+    <dimen name="adn_margin_card_right">9dp</dimen>
+    <dimen name="adn_margin_card_bottom">0dp</dimen>
+    <dimen name="adn_margin_card_elevation">0.01dp</dimen>
+    <dimen name="adn_margin_card_corner_radius">3dp</dimen>
+    <dimen name="adn_height_txt_source_news">50dp</dimen>
+    <dimen name="adn_padding_left_txt_source_news">12dp</dimen>
+    <dimen name="adn_padding_right_txt_source_news">12dp</dimen>
+    <dimen name="adn_padding_left_txt_description">9dp</dimen>
+    <dimen name="adn_padding_right_txt_description">9dp</dimen>
+    <dimen name="adn_padding_top_txt_description">2dp</dimen>
+    <dimen name="adn_padding_bottom_txt_description">5dp</dimen>
+    <dimen name="adn_txt_source_news">18dp</dimen>
+    <dimen name="adn_txt_description">15dp</dimen>
+
+    
+
+</resources>

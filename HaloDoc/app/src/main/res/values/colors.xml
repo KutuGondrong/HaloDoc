@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#42A5F5</color>
+    <color name="colorPrimaryDark">#2196F3</color>
+    <color name="colorAccent">#E3F2FD</color>
+
+    <!--adapter_sources_news <adn>-->
+    <color name="adn_background_txt_source_news">#2196F3</color>
+    <color name="adn_background_txt_description">#90CAF9</color>
+    <color name="adn_color_txt_source_news">#fff</color>
+    <color name="adn_color_txt_description">#010431</color>
+</resources>

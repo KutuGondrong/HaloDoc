@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">HaloDoc</string>
+    <string name="example_title">Title</string>
+    <string name="example_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eleifend imperdiet posuere. Cras hendrerit egestas ipsum, eu consectetur nibh posuere et. Integer accumsan quis leo in gravida.</string>
+</resources>

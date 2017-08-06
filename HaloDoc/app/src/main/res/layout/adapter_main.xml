@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/adn_padding_continer"
+    android:orientation="vertical">
+    <android.support.v7.widget.CardView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        card_view:cardCornerRadius="@dimen/adn_margin_card_corner_radius"
+        android:layout_marginTop="@dimen/adn_margin_card_top"
+        android:layout_marginLeft="@dimen/adn_margin_card_left"
+        android:layout_marginRight="@dimen/adn_margin_card_right"
+        card_view:cardElevation="@dimen/adn_margin_card_elevation"
+        android:layout_marginBottom="@dimen/adn_margin_card_bottom">
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/top_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/txt_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="@dimen/adn_height_txt_source_news"
+            android:paddingLeft="@dimen/adn_padding_left_txt_source_news"
+            android:paddingRight="@dimen/adn_padding_right_txt_source_news"
+            android:layout_gravity="bottom"
+            android:gravity="center_vertical"
+            android:background="@color/adn_background_txt_source_news"
+            android:alpha="0.8"
+            android:textColor="@color/adn_color_txt_source_news"
+            android:textSize="@dimen/adn_txt_source_news"
+            android:text="@string/example_title" />
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/txt_description"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/adn_padding_left_txt_description"
+            android:paddingRight="@dimen/adn_padding_left_txt_description"
+            android:paddingTop="@dimen/adn_padding_top_txt_description"
+            android:paddingBottom="@dimen/adn_padding_bottom_txt_description"
+            android:alpha="0.3"
+            android:background="@color/adn_background_txt_description"
+            android:textColor="@color/adn_color_txt_description"
+            android:textSize="@dimen/adn_txt_description"
+            android:text="@string/example_description" />
+        </LinearLayout>
+        </android.support.v7.widget.CardView>
+</LinearLayout>
